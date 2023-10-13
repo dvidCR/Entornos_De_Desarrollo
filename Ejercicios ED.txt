@@ -1,0 +1,117 @@
+Ej 1:
+
+import java.util.Scanner;
+
+public class SumaRestaEnteros {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("¿Qué operación deseas realizar?");
+        System.out.println("1. Sumar");
+        System.out.println("2. Restar");
+        
+        int opcion = sc.nextInt();
+        
+        if (opcion == 1) {
+            System.out.println("Has elegido sumar.");
+            System.out.print("Ingresa el primer número: ");
+            int num1 = sc.nextInt();
+            System.out.print("Ingresa el segundo número: ");
+            int num2 = sc.nextInt();
+            int resultado = num1 + num2;
+            System.out.println("El resultado de la suma es: " + resultado);
+        } else {
+            System.out.println("Opción no válida. Por favor, selecciona 1 para sumar o 2 para restar.");
+        }
+	if (opcion == 2) {
+            System.out.println("Has elegido restar.");
+            System.out.print("Ingresa el primer número: ");
+            int num1 = sc.nextInt();
+            System.out.print("Ingresa el segundo número: ");
+            int num2 = sc.nextInt();
+            int resultado = num1 - num2;
+            System.out.println("El resultado de la resta es: " + resultado);
+        } else {
+            System.out.println("Opción no válida. Por favor, selecciona 1 para sumar o 2 para restar.");
+        }
+    }
+}
+
+Ej 2:
+
+import java.util.Scanner;
+
+public class SumaRestaEnteros {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+            System.out.print("Ingresa el primer número: ");
+            int num1 = sc.nextInt();
+            System.out.print("Ingresa el segundo número: ");
+            int num2 = sc.nextInt();
+            int resultado = num1 + num2;
+            System.out.println("El resultado de la suma es: " + resultado);
+            System.out.print("Ingresa un número: ");
+            int num3 = sc.nextInt();;
+            int resultado = resultado - num3;
+            System.out.println("El resultado de la resta es: " + resultado);
+        } 
+    }
+}
+
+Ej 3:
+
+import java.util.Scanner;
+
+public class ContarLetraA {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingresa una frase: ");
+        String frase = sc.nextLine();
+
+	int contador = 0
+	
+	System.out.print("Que letra de la frase quires contar: ");
+        String letra = sc.nextLine();
+
+	for letra in frase {
+            System.out.print(letra)
+            }
+
+Ej 4:
+
+import java.util.Scanner;
+
+public class ParImpar {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingresa un número entero: ");
+        int numero = sc.nextInt();
+
+	if (numero % 2 == 0) {
+            System.out.println(numero + " es un número par.");
+        } else {
+            System.out.println(numero + " es un número impar.");
+        }
+
+Ej 5:
+
+import java.util.Scanner;
+
+public class ContarCifras {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingresa un número entero: ");
+        int numero = sc.nextInt();
+	
+	for i in len(numero) {
+		System.out.print(i);
+	}
+}
+
+Ej 6:
+
+No tengo idea
