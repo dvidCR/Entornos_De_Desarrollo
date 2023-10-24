@@ -97,9 +97,9 @@ public class Clase_20102023 {
             int M = sc.nextInt();
             System.out.println("Pon cualquier segundo: ");
             int S = sc.nextInt();
-            if(H < 25){
-                if(M < 60){
-                    if(S < 60){
+            if(H < 25 && H > 0){
+                if(M < 60 && M > 0){
+                    if(S < 60 && S > 0){
                         System.out.println(H + ":" + M + ":"+ S + " " + "Es una hora valida");
                     } else {
                         System.out.println("No es un segundo valido");
