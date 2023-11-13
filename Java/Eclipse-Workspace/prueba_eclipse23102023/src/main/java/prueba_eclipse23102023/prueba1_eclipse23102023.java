@@ -26,12 +26,11 @@ public class prueba1_eclipse23102023 {
             }
             
         Ejercicio 6*/
-		Scanner sc = new Scanner(System.in);
 			int[] burbuja = {5,6,88,45,97,30,1};
-			int contador = 0;
+			//int contador;
 			int contador2 = 0;
 			int aux = 0;
-			for (contador = 0; contador < burbuja.length - 1; contador++) {
+			for (int contador = 0; contador < burbuja.length - 1; contador++) {
 	            for (contador2 = 0; contador2 < burbuja.length - contador - 1; contador2++) {                                                              
 	                if (burbuja[contador2 + 1] < burbuja[contador2]) {
 	                    aux = burbuja[contador2 + 1];
