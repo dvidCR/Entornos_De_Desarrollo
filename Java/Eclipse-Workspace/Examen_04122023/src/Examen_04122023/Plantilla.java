@@ -25,6 +25,10 @@ public class Plantilla {
 			System.out.print("Que opcion vas a escoger: ");
 			int op = sc.nextInt();
 			sc.nextLine();
+			/*Este sc.nextLine existe para que consuma la nueva línea después de leer el entero
+			 ya que al no haber un ln en print, no hace el salto de linea y se queda en el buffer
+			 para cuando el nuevo valor también cogera lo que pediste en el sc.nextInt.
+			 */
 			
 			switch (op) {
 				case 1:
