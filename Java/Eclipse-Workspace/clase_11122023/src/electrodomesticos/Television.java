@@ -2,32 +2,34 @@ package electrodomesticos;
 
 public class Television extends Electrodomesticos{
 	private int resolucion;
-	private boolean TDT;
+	private boolean tdt;
+	//private static final int RESOLUCION = 20;
+	//private static final boolean TDT = false;
 	
-	Television(double precioBase, String color, String consumo, double peso) {
-		super(precioBase, color, consumo, peso);
+	Television() {
+		super();
 		this.resolucion = 20;
-		this.TDT = false;
+		this.tdt = false;
 	}
 	
-	Television(double precioBase, String color, String consumo, double peso, double precio, int kilos) {
-		super(precioBase = precio, color, consumo, peso = kilos);
+	Television(double precioBase,double peso) {
+		super(precioBase, peso);
 		this.resolucion = 20;
-		this.TDT = false;
+		this.tdt = false;
 	}
 	
-	Television(int resolucion, boolean TDT, double precioBase, String color, String consumo, double peso) {
-		super(precioBase, color, consumo, peso);
+	Television(int resolucion, boolean tdt) {
+		super();
 		this.resolucion = resolucion;
-		this.TDT = TDT;
+		this.tdt = tdt;
 	}
 
 	public int getResolucion() {
 		return resolucion;
 	}
 
-	public boolean isTDT() {
-		return TDT;
+	public boolean getTDT() {
+		return tdt;
 	}
 	
 	@Override
@@ -36,7 +38,7 @@ public class Television extends Electrodomesticos{
 			return super.precioFinal() + ((40/100) * 40);
 		}
 		
-		if (TDT == true) {
+		if (tdt == true) {
 			return super.precioFinal() + 50;
 		}
 		

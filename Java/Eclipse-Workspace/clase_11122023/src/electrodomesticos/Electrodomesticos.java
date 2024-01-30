@@ -119,11 +119,5 @@ public class Electrodomesticos {
 		return this.precioBase;
 		
 	}
-
-	@Override
-	public String toString() {
-		return "Electrodomesticos [precioBase=" + precioBase + ", color=" + color + ", consumo=" + consumo + ", peso="
-				+ peso + "]";
-	}
 	
 }
