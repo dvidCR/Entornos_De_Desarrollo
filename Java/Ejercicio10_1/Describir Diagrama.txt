@@ -1,0 +1,45 @@
+Empezamos con la clase Persona el cual contiene los atributos:
+    + Nombre (Public)
+    + C. I (Public)
+
+El cual es padre de las clases Trabajador y Estudiante, teniendo una herencia de generalización.
+
+En la clase Trabajador encontramos el atributo:
+    + Fecha_Inicio (Public)
+
+En la clase Estudiante encontramos los atributos:
+    + Nombre (Public)
+    + C. I (Public)
+
+Con la clase Trabajador tenemos una asociacion 1 .. * (uno o varios trabajadores en la universidad) con la clase Universidad.
+
+                        Trabajador    1 .. *  <  Universidad
+                        (Siendo la de Trabajador la opcional y la Universidad la opción obligatoria)
+
+Con la clase Trabajador también tenemos una herencia de composición, siendo los padres PAS y PDI, y una herencia de agregación, siendo el padre Departamento.
+
+En la clase PAS tenemos el atributo:
+    + Puesto (Public)
+
+y contiene el método:
+    + administrar() (Public)
+
+En la clase PDI tenemos el atributo:
+    + Categoria (Public)
+
+y contiene los métodos:
+    + investigar() (Public)
+    + enseñar() (Public)
+
+En la clase Departamento tenemos el atributo:
+    + nombre (Public)
+
+Con la clase Estudiante tenemos una asociacion 1 (solamente puede haber un alumno con esa identificacion (C. I) en la universidad) con la clase Universidad.
+
+                        Universidad  >  1    Estudiante
+                        (Siendo la Universidad la opción obligatoria y la de Estudiante la opcional)
+
+En la clase Universidad encontramos los atributos:
+    + Nombre (Public)
+    + Ciudad (Public)
+

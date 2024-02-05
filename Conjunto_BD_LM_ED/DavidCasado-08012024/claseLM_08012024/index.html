@@ -1,0 +1,69 @@
+<!DOCTYPE html> <!--En esta etiqueta pondremos que versión de html queremos usar, en este caso hemos puesto que utilize la última versión de html-->
+<html lang="es-ES"> <!--Es la etiqueta princial para la estructura del html y tiene puesto el idioma en español de España-->
+    <head> <!--Esta es la cabezera de nuestra página web-->
+        <meta charset="utf-8"> <!--Esta etiqueta nos vale para que nuestra páguina web admita los caracteres especiales-->
+        <link rel="stylesheet" href="style.css"> <!--Esta etiqueta es para enlazar nuestro html con un css-->
+        <title>Ejemplo uso de thead, tbody y tfoot</title> <!--Esta etiqueta es para ponerle un título a tu página web y a tu cabezera-->
+        <!--<style> /*La etiqueta style para hacer un css interno dentro del html*/
+            table, td, th {
+            border:1px solid black;
+            } /*Tanto las etiquetas table, td y th tendran un borde de un pixel con el color negro*/
+
+            table {
+            border-collapse:collapse;
+            width:100%;
+            } /*Solo a la etiqueta de table le pone que todos los bordes de la tabla esten juntos y no separados*/
+
+            td, th {
+            padding:5px;
+            } /*Tanto las etiquetas td y th tendran un una distancia de 5 pixeles entre si*/
+
+            thead {
+            color:navy;
+            } /*A todos los thead el color cambia a navy*/
+
+            tbody {
+            color:green;
+            } /*A todos los tbody el color cambia a verde*/
+
+            tfoot {
+            color:maroon;
+            } /*A todos los tfoot el color cambia a marron*/
+        </style>-->
+    </head>
+    <body> <!--Este el cuerpo de nuestra página web-->
+        <table> <!--Esta etiqueta nos vale para definir una tabla-->
+            <caption>Lista de la compra</caption> <!--En esta etiqueta marcamos cual es título de la tabla-->
+            <thead> <!--Esta etiqueta es para indicar cual es la cabezera de nuestra tabla-->
+                <tr> <!--Esta etiqueta es para hacer una fila-->
+                    <th>Producto</th> <!--Esta etiqueta es para hacer las celdas y remarcarlas-->
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tfoot> <!--Esta etiqueta se usa para indicar cual es el pie de nuestra tabla-->
+                <tr>
+                    <td colspan="2">Total</td> <!--Esta etiqueta es para hacer las celdas-->
+                    <td>20</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Destornillador</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Llave inglesa</td>
+                    <td>2</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Martillo</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
