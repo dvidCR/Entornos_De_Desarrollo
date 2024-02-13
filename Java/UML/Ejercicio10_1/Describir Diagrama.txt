@@ -31,10 +31,20 @@ y contiene los métodos:
     + investigar() (Public)
     + enseñar() (Public)
 
+con una herencia de asociacion con la clase Departamento:
+                        PDI  >  Departamento
+                        (Siendo PDI el que vivie en Departamento)
+
+y otra herencia de asociacion 0..1 (Pudiendo haber uno o ninguno) con la clase Doctor:
+                        PDI  0  >  1  Doctor
+                        (Puede haber ningun PDI o un Doctor)
+
 En la clase Departamento tenemos el atributo:
     + nombre (Public)
 
-Con la clase Estudiante tenemos una asociacion 1 (solamente puede haber un alumno con esa identificacion (C. I) en la universidad) con la clase Universidad.
+con una herencia de composición, siendo el padre la clase Universidad.
+
+Con la clase Estudiante tenemos una herencia de asociacion 1 (solamente puede haber un alumno con esa identificacion (C. I) en la universidad) con la clase Universidad.
 
                         Universidad  >  1    Estudiante
                         (Siendo la Universidad la opción obligatoria y la de Estudiante la opcional)
@@ -43,3 +53,16 @@ En la clase Universidad encontramos los atributos:
     + Nombre (Public)
     + Ciudad (Public)
 
+En la clase Est. Grado tenemos una herencia de agregación, siendo el padre la clase Departamento, y una herencia de generalización, siendo el padre la clase Estudiante, también contiene el atributo:
+    + Titulacion (Public)
+
+y contiene el metodo:
+    + colaborar() (Public)
+
+En la clase Est. Doctorado tenemos una herencia de generalización, siendo el padre la clase Estudiante, y una herencia de dependencia, siendo el padre la clase Doctor, también contiene el atributo:
+    + Programa (Public)
+
+y contiene el metodo:
+    + Realizar_Tesis() (Public)
+
+En la clase Doctor tenemos una herencia de generalización, siendo el padre la clase Trabajador, y una herencia de dependencia, siendo el padre la clase Departamento.
