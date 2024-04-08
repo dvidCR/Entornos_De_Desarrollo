@@ -52,8 +52,7 @@ public class Camion {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return "Atributos de camion1:\n color = " + this.color + "\n" +
+		return "Atributos de camion:\n color = " + this.color + "\n" +
 				 " modelo = " + this.modelo + "\n" +
 				 " numero de plazas = " + this.numPlazas + "\n" +
 				 " peso = " + this.peso;
