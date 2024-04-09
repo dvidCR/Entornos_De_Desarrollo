@@ -130,7 +130,7 @@ public class Main {
 						case 1:
 							if(moto1.comprobarCombustible()) {
 								System.out.println("¿Cuantos kilometros quieres conducior?: ");
-								double kilometros = sc.nextInt();
+								double kilometros = sc.nextDouble();
 								System.out.println("En este viaje has consumido "+ moto1.Consumo(kilometros));
 							} else {
 								System.out.println("No tienes combustible");
