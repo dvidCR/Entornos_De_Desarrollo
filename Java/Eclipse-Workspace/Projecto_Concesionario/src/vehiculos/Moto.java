@@ -1,6 +1,6 @@
 package vehiculos;
 
-public class Moto {
+public class Moto extends Vehiculo{
 	private String color;
 	private double tanque;
 	private double gasolina;

@@ -1,6 +1,6 @@
 package vehiculos;
 
-public class Coche {
+public class Coche extends Vehiculo {
 	
 	private String color;
 	private String clase;

@@ -1,11 +1,11 @@
 package vehiculos;
 
-public class Camion {
+public class Camion extends Vehiculo{
 	
-	String color;
-	String modelo;
-	int numPlazas;
-	double peso;
+	private String color;
+	private String modelo;
+	private int numPlazas;
+	private double peso;
 	
 	public Camion() {
 		
