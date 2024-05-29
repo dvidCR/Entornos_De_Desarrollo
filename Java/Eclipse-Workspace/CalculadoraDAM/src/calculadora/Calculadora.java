@@ -4,6 +4,29 @@ import java.util.Scanner;
 
 public class Calculadora {
 	
+	/**
+	 * 
+	 * @param menu
+	 * Pilla por parametros la instancia de Scanner
+	 * Esta en un constante bucle llamando al método menuTxt para mostrarnos las opciones disponibles
+	 * Dependiendo de la opción llamamos al resto de metodos para hacer las operaciones
+	 * 
+	 * @param menuTxt
+	 * Devuelve el menú
+	 * 
+	 * @param opAbs
+	 * Devuelve el resultado de la operacion Abs
+	 * 
+	 * @param opAtan
+	 * Devuelve el resultado de la operacion Atan
+	 * 
+	 * @param opSin
+	 * Devuelve el resultado de la operacion Sin
+	 * 
+	 * @param opCos
+	 * Devuelve el resultado de la operacion Cos
+	 */
+	
 	public void menu(Scanner sc) {
 		int op = 0;
 		while(op != 5) {
@@ -11,22 +34,22 @@ public class Calculadora {
 			switch(sc.nextInt()) {
 				case 1:
 					System.out.println("Pon un numero: ");
-					int abs = sc.nextInt();
+					double abs = sc.nextDouble();
 					System.out.println(opAbs(abs));
 					break;
 				case 2:
 					System.out.println("Pon un numero: ");
-					int atan = sc.nextInt();
+					double atan = sc.nextDouble();
 					System.out.println(opAtan(atan));
 					break;
 				case 3:
 					System.out.println("Pon un numero: ");
-					int sin = sc.nextInt();
+					double sin = sc.nextDouble();
 					System.out.println(opSin(sin));
 					break;
 				case 4:
 					System.out.println("Pon un numero: ");
-					int cos = sc.nextInt();
+					double cos = sc.nextDouble();
 					System.out.println(opCos(cos));
 					break;
 				case 5:
