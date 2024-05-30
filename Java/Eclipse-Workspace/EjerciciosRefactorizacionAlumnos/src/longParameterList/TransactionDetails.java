@@ -1,5 +1,13 @@
 package longParameterList;
 
+/**
+ * @param TransactionDetails
+ * Le da valores a los atributos mediante los parametros del metodo.
+ * 
+ * @param getter and setter
+ * Son todos los getters y setters de todos los atributos de la clase.
+ */
+
 public class TransactionDetails {
 	private String transactionId;
 	private String accountNumber;

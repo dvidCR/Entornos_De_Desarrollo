@@ -12,6 +12,43 @@ import java.util.List;
  * imprimir los detalles de la orden.
  */
 
+/**
+ * @see Ejercicio2
+ * Procesa las ordenes.
+ * 
+ * @param procesarOrdenes
+ * Muestra por pantalla el resultado del resto de metodos.
+ * 
+ * @param aplicarDescuento
+ * Utilizando la calse orden y la lista ordenes, junto con la clase Item, aplican 
+ * el descuento.
+ * 
+ * @param total
+ * Saca el total de las ordenes.
+ * 
+ * @param impuestos
+ * Saca el totla de los impuestos.
+ * 
+ * @see Orden
+ * Saca los items de la lista Items y mira cual es el más frecuente.
+ * 
+ * @param getItems
+ * En si el metodo es una lista de Items el cual se encarga de mostrar unicamente
+ * lo que contiene, pero devuelve un null.
+ * 
+ * @param isClienteFrecuente
+ * Comprueba que cliente es el más frecuente, pero devuelve un false.
+ * 
+ * @see Item
+ * Saca el precio y la cantidad de los Items.
+ * 
+ * @param getPrecio
+ * Devuelve el precio de los items.
+ * 
+ * @param getCantidad
+ * Devuelve la cantidad de items que hay.
+ */
+
 public class Ejercicio2 {
 	
 	private Orden orden = new Orden();

@@ -11,6 +11,26 @@ import java.util.List;
  * y de mostrar los resultados.
  */
 
+/**
+ * @param calcularEstadisticas
+ * Muestra por pantalla el resultado de los demas metodos.
+ * 
+ * @param Suma
+ * Suma los nuemros de la lista más un numero que le pasemos y lo devuelve.
+ * 
+ * @param Max
+ * Compara los valores de la lista uno por uno con el valor que le hemos pasado y 
+ * muestra el mayor.
+ * 
+ * @param Min
+ * Compara los valores de la lista uno por uno con el valor que le hemos pasado y 
+ * muestra el menos.
+ * 
+ * @param Promedio
+ * Saca el promedio de los valores de la lista junto con el valor que le hemos pasado.
+ * 
+ */
+
 public class Ejercicio1 {
 	public void calcularEstadisticas(List<Integer> numeros) {
 	    System.out.println("Suma: " + Suma(0,  numeros));

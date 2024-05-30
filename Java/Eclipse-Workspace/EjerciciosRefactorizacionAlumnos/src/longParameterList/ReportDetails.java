@@ -2,6 +2,14 @@ package longParameterList;
 
 import java.util.Date;
 
+/**
+ * @param ReportDetails
+ * Le da valores a los atributos mediante los parametros del metodo.
+ * 
+ * @param getter and setter
+ * Son todos los getters y setters de todos los atributos de la clase.
+ */
+
 public class ReportDetails {
 	private String reportName;
     private String reportType;

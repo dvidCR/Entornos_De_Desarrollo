@@ -10,6 +10,15 @@ import java.io.IOException;
  * Refactoriza el código para eliminar la duplicación.
  */
 
+/**
+ * @param readFile
+ * Se encarga de leer el fichero y devolver lo que pone
+ * 
+ * @see BufferedReader
+ * @see FileReader
+ * @see StringBuilder
+ */
+
 public class FileHandler {
 	public String readFile(String filePath) {
         StringBuilder content = new StringBuilder();

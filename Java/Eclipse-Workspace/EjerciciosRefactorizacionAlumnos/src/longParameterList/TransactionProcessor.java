@@ -8,6 +8,15 @@ package longParameterList;
  * Esto ayudará a mejorar la encapsulación y la manejabilidad del código.
  */
 
+/**
+ * @param processTransaction
+ * Iguala las variables al valor del atributo en concreto de la clase TransactionDetails.
+ * 
+ * @see TransactionDetails
+ * Llama a la clase para usarlo como parametro en la clase processTransaction.
+ * 
+ */
+
 public class TransactionProcessor {
     public void processTransaction(TransactionDetails transactionDetails) {
         // Transaction processing logic

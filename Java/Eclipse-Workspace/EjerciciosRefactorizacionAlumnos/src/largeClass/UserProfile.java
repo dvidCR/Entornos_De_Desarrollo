@@ -12,6 +12,23 @@ import java.util.Map;
  * clase tenga una única responsabilidad.
  */
 
+/**
+ * @param UserProfile
+ * Le da valores a los atributos mediante los parametros
+ * 
+ * @param updateEmail
+ * Cambia el E-mial
+ * 
+ * @param changePassword
+ * Cambia la contraseña
+ * 
+ * @param addActivity
+ * Añade una tarea
+ * 
+ * @param updatePreference
+ * Actualiza las preferencias
+ */
+
 public class UserProfile {
     private String userId;
     private String name;

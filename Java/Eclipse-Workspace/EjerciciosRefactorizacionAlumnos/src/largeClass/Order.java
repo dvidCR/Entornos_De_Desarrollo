@@ -13,6 +13,26 @@ import java.util.List;
  * asegurando que cada clase tenga una única responsabilidad.
  */
 
+/**
+ * @param Order
+ * Le da valores a los atributos mediante los parametros
+ * 
+ * @param processOrder
+ * Llama por parametro a otras clases para hacer el resto del programa
+ * 
+ * @see ValidateOrder
+ * Valida el orden
+ * 
+ * @see CalculateTotal
+ * Calculca el total
+ * 
+ * @see ProcessPayment
+ * Hace los procesos del pago
+ * 
+ * @see ShipOrder
+ * Se encarga del orden a la hora de comprar
+ */
+
 public class Order {
     private String orderId;
     private String customerName;

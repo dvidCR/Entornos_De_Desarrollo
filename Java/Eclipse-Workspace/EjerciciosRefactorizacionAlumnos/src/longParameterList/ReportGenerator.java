@@ -9,6 +9,14 @@ import java.util.Date;
  * Esto ayudará a mejorar la encapsulación y la manejabilidad del código.
  */
 
+/**
+ * @param generateReport
+ * Iguala las variables al valor del atributo en concreto de la clase ReportDetails.
+ * 
+ * @see ReportDetails
+ * Llama a la clase para usarlo como parametro en la clase generateReport.
+ */
+
 public class ReportGenerator {
 	
 	public void generateReport(ReportDetails reportDetails) {
