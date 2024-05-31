@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"longMethod","l":"BankTransactions"},{"p":"longParameterList","l":"EmailSender"},{"p":"duplicatedCode","l":"PriceCalculator"},{"p":"largeClass","l":"UserProfile"}];updateSearchResults();
